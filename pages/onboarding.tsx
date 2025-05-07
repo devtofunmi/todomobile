@@ -24,12 +24,14 @@ export default function Onboarding() {
           </p>
         </div>
         </div>
+        <div className="w-full max-w-sm mx-auto  flex flex-col gap-4">
 
         <div className="w-full">
           <Link href="/register">
             <Button>Get Started</Button>
           </Link>
         </div>
+</div>
       
     </div>
   );
