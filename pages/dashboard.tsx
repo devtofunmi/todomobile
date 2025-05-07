@@ -57,7 +57,7 @@ export default function Dashboard() {
                   type="checkbox"
                   checked={task.done}
                   onChange={() => toggleTask(task.id)}
-                  className={`w-4 h-4 rounded border border-gray-300 appearance-none
+                  className={`w-4 h-4  border border-black appearance-none
                     ${task.done ? "bg-cyan-500" : "bg-white"}
                     transition-colors duration-200 cursor-pointer`}
                 />
