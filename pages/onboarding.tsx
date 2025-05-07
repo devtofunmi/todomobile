@@ -8,7 +8,7 @@ export default function Onboarding() {
         <img src="/shape.png" alt="shapeicon" className="w-40" />
       </div>
 
-      <div className="max-w-md mx-auto flex flex-col justify-between items-center">
+      <div className="max-w-md mx-auto flex flex-col justify-center">
         <div className="flex flex-col items-center justify-center text-center mt-12">
           <img src="/onboard.png" alt="Onboarding" className="w-40 mb-6" />
           <h1 className="text-xl font-bold mb-2 text-black">
@@ -23,13 +23,14 @@ export default function Onboarding() {
             ut eget sed.
           </p>
         </div>
+        </div>
 
         <div className="w-full">
           <Link href="/register">
             <Button>Get Started</Button>
           </Link>
         </div>
-      </div>
+      
     </div>
   );
 }
