@@ -5,12 +5,12 @@ import Link from "next/link";
 export default function Register() {
   return (
     <div className="h-screen relative bg-[#eff4f3] font-poppins text-black flex flex-col px-6 pt-10 pb-6">
-      {/* Top background shape */}
+      
       <div className="absolute top-0 left-0">
         <img src="/shape.png" alt="shapeicon" className="w-40" />
       </div>
 
-      {/* Centered content */}
+      
       <div className="flex w-full max-w-sm mx-auto  flex-col flex-grow justify-center">
         <h2 className="text-lg font-bold mb-4 text-center">Welcome Back</h2>
         <img src="/login.png" alt="Register" className="w-40 mx-auto mb-6" />
