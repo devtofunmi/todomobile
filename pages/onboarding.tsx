@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Onboarding() {
   return (
-    <div className="h-screen w-full font-poppins bg-[#eff4f3] flex flex-col items-center px-6 pt-10 pb-6 relative">
+    <div className="h-screen w-full max-w-sm mx-auto font-poppins bg-[#eff4f3] flex flex-col items-center px-6 pt-10 pb-6 relative">
       <div className="absolute top-0 left-0">
         <img src="/shape.png" alt="shapeicon" className="w-40" />
       </div>
