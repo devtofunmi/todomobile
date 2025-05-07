@@ -40,7 +40,7 @@ export default function Dashboard() {
         </div>
 
         <div>
-          <h3 className="font-bold text-sm">Task list</h3>
+          <h3 className="font-bold text-black text-sm">Task list</h3>
         </div>
 
         <div className="bg-white shadow-md rounded-lg p-4 mt-5">
