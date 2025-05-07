@@ -8,19 +8,21 @@ export default function Onboarding() {
         <img src="/shape.png" alt="shapeicon" className="w-40" />
       </div>
 
-      <div className="flex flex-col items-center justify-center text-center max-w-sm mx-auto flex-grow">
-        <img src="/onboard.png" alt="Onboarding" className="w-40 mb-6" />
-        <h1 className="text-xl mt-10 font-bold font-poppins mb-2 text-black">
-          Gets things with TODOs
-        </h1>
-        <p className="text-gray-600 font-poppins mb-6 leading-relaxed">
-          Lorem ipsum dolor sit amet<br />
-          consectetur. Eget sit nec et<br />
-          euismod. Consequat urna<br />
-          quam felis interdum quisque.<br />
-          Malesuada adipiscing tristique<br />
-          ut eget sed.
-        </p>
+      <div className="flex flex-col items-center justify-between text-center max-w-md mx-auto flex-grow">
+        <div>
+          <img src="/onboard.png" alt="Onboarding" className="w-40 mb-6" />
+          <h1 className="text-xl mt-10 font-bold font-poppins mb-2 text-black">
+            Gets things with TODOs
+          </h1>
+          <p className="text-gray-600 font-poppins mb-6 leading-relaxed">
+            Lorem ipsum dolor sit amet<br />
+            consectetur. Eget sit nec et<br />
+            euismod. Consequat urna<br />
+            quam felis interdum quisque.<br />
+            Malesuada adipiscing tristique<br />
+            ut eget sed.
+          </p>
+        </div>
 
         <div className="w-full">
           <Link href="/register">
