@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Register() {
   return (
-    <div className="h-screen relative bg-[#eff4f3] text-black flex flex-col px-6 pt-10 pb-6">
+    <div className="h-screen relative bg-[#eff4f3] font-poppins text-black flex flex-col px-6 pt-10 pb-6">
       {/* Top background shape */}
       <div className="absolute top-0 left-0">
         <img src="/shape.png" alt="shapeicon" className="w-40" />
