@@ -8,7 +8,7 @@ export default function Onboarding() {
         <img src="/shape.png" alt="shapeicon" className="w-40" />
       </div>
 
-      <div className="flex flex-col items-center justify-center text-center max-w-md mx-auto flex-grow">
+      <div className="flex flex-col items-center justify-center text-center max-w-sm mx-auto flex-grow">
         <img src="/onboard.png" alt="Onboarding" className="w-40 mb-6" />
         <h1 className="text-xl mt-10 font-bold font-poppins mb-2 text-black">
           Gets things with TODOs
