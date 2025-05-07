@@ -23,7 +23,7 @@ export default function Dashboard() {
   };
 
   return (
-    <div className="min-h-screen w-full bg-[#eff4f3]">
+    <div className="min-h-screen w-full bg-[#eff4f3] font-poppins">
       <div className="relative bg-cyan-400 min-h-[250px] flex flex-col items-center justify-end pb-4 md:pb-40">
         <div className="absolute top-0 left-0">
           <img src="/shape2.png" alt="shapeicon" className="w-40" />
