@@ -22,7 +22,7 @@ export default function Onboarding() {
           ut eget sed.
         </p>
 
-        <div className="w-full flex justify-center mt-6">
+        <div className="w-full">
           <Link href="/register">
             <Button>Get Started</Button>
           </Link>
