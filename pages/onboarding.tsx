@@ -3,12 +3,12 @@ import Link from "next/link";
 
 export default function Onboarding() {
   return (
-    <div className="h-screen w-full max-w-sm mx-auto font-poppins bg-[#eff4f3] flex flex-col items-center px-6 pt-10 pb-6 relative">
+    <div className="h-screen w-full font-poppins bg-[#eff4f3] flex flex-col items-center px-6 pt-10 pb-6 relative">
       <div className="absolute top-0 left-0">
         <img src="/shape.png" alt="shapeicon" className="w-40" />
       </div>
 
-      <div className="flex flex-col flex-grow items-center justify-center text-center">
+      <div className="flex flex-col items-center justify-center text-center max-w-md mx-auto flex-grow">
         <img src="/onboard.png" alt="Onboarding" className="w-40 mb-6" />
         <h1 className="text-xl mt-10 font-bold font-poppins mb-2 text-black">
           Gets things with TODOs
@@ -21,12 +21,12 @@ export default function Onboarding() {
           Malesuada adipiscing tristique<br />
           ut eget sed.
         </p>
-      </div>
 
-      <div className="w-full">
-        <Link href="/register">
-          <Button>Get Started</Button>
-        </Link>
+        <div className="w-full flex justify-center mt-6">
+          <Link href="/register">
+            <Button>Get Started</Button>
+          </Link>
+        </div>
       </div>
     </div>
   );
