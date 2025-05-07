@@ -8,7 +8,7 @@ export default function Onboarding() {
         <img src="/shape.png" alt="shapeicon" className="w-40" />
       </div>
 
-      {/* Main content */}
+      
       <div className="flex flex-col flex-grow justify-center items-center text-center w-full max-w-md mx-auto mt-12">
         <img src="/onboard.png" alt="Onboarding" className="w-40 mb-6" />
         <h1 className="text-xl font-bold mb-2">Gets things with TODOs</h1>
@@ -22,7 +22,7 @@ export default function Onboarding() {
         </p>
       </div>
 
-      {/* Bottom button */}
+      
       <div className="w-full max-w-sm mx-auto flex flex-col gap-4">
         <Link href="/register">
           <Button>Get Started</Button>
