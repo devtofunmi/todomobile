@@ -8,7 +8,7 @@ interface ButtonProps {
 export default function Button({ children, ...props }: ButtonProps) {
     return (
       <button
-        className="w-full cursor-pointer bg-cyan-400 text-white py-2 rounded-md hover:bg-cyan-500 transition"
+        className="w-full font-poppins cursor-pointer bg-cyan-400 text-white py-2 rounded-md hover:bg-cyan-500 transition"
         {...props}
       >
         {children}
