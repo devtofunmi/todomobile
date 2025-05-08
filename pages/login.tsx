@@ -25,7 +25,7 @@ export default function Register() {
       <div className="w-full max-w-sm mx-auto  flex flex-col gap-4">
         <div className="w-full">
         <Link href="/dashboard">
-          <Button>Register</Button>
+          <Button>Login</Button>
         </Link>
       </div>
          
