@@ -29,23 +29,23 @@ export default function Dashboard() {
           <img src="/shape2.png" alt="shapeicon" className="w-40" />
         </div>
         <img src="/guy.png" alt="Profile" className="w-20 h-20 rounded-full mb-2 md:mt-10 " />
-        <h2 className="text-white font-semibold text-sm lg:text-base">Welcome Jeegar Goyani</h2>
+        <h2 className="text-white font-semibold text-[18px] lg:text-base">Welcome Jeegar Goyani</h2>
       </div>
 
       <div className="flex w-full max-w-md px-6 mx-auto  flex-col flex-grow justify-center">
-        <p className="text-xs font-semibold text-right text-black mt-5 mb-4">Good Afternoon</p>
+        <p className="text-[18px] font-poppins font-semibold text-right text-black mt-5 mb-4">Good Afternoon</p>
 
         <div className="flex justify-center items-center mb-2">
           <img src="/clock.png" alt="clock" className="w-32" />
         </div>
 
         <div>
-          <h3 className="font-bold text-black text-sm">Task list</h3>
+          <h3 className="font-semibold text-black text-sm">Task list</h3>
         </div>
 
         <div className="bg-white shadow-md rounded-lg p-4 mt-5">
           <div className="flex justify-between items-center mb-2">
-            <p className="text-xs text-gray-500 mb-2">Daily Task</p>
+            <p className="text-xs font-semibold text-gray-500 mb-2">Daily Task</p>
             <img src="/plus.png" alt="clock" className="" />
           </div>
 
@@ -57,7 +57,7 @@ export default function Dashboard() {
                   type="checkbox"
                   checked={task.done}
                   onChange={() => toggleTask(task.id)}
-                  className={`w-4 h-4  border border-black appearance-none
+                  className={`w-4 h-4  border-2 border-black appearance-none
                     ${task.done ? "bg-cyan-500" : "bg-white"}
                     transition-colors duration-200 cursor-pointer`}
                 />

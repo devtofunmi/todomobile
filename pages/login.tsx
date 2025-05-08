@@ -12,7 +12,7 @@ export default function Register() {
 
       
       <div className="flex w-full max-w-sm mx-auto  flex-col flex-grow justify-center">
-        <h2 className="text-lg font-bold mb-4 text-center">Welcome Back</h2>
+        <h2 className="text-lg font-bold mb-4 text-center">Welcome back</h2>
         <img src="/login.png" alt="Register" className="w-40 mx-auto mb-6" />
 
         <Input placeholder="Enter your Email" type="email" />
