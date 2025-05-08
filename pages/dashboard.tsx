@@ -24,16 +24,16 @@ export default function Dashboard() {
 
   return (
     <div className="min-h-screen w-full bg-[#eff4f3] font-poppins">
-      <div className="relative bg-cyan-400 min-h-[250px] flex flex-col items-center justify-end pb-4 md:pb-40">
+      <div className="relative bg-cyan-400 min-h-[250px] flex flex-col items-center justify-end pb-4 md:pb-10">
         <div className="absolute top-0 left-0">
           <img src="/shape2.png" alt="shapeicon" className="w-40" />
         </div>
-        <img src="/guy.png" alt="Profile" className="w-20 h-20 rounded-full mb-2 md:mt-10 " />
+        <img src="/guy.png" alt="Profile" className="w-20 h-20 rounded-full mb-2 md:mt-20 " />
         <h2 className="text-white font-semibold text-[18px] lg:text-base">Welcome Jeegar Goyani</h2>
       </div>
 
       <div className="flex w-full max-w-md px-6 mx-auto  flex-col flex-grow justify-center">
-        <p className="text-[18px] font-poppins font-semibold text-right text-black mt-5 mb-4">Good Afternoon</p>
+        <p className="text-[12px] font-poppins font-semibold text-right text-black mt-5 mb-4">Good Afternoon</p>
 
         <div className="flex justify-center items-center mb-2">
           <img src="/clock.png" alt="clock" className="w-32" />
