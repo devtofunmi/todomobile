@@ -43,7 +43,7 @@ export default function Dashboard() {
           <h3 className="font-semibold text-black text-sm">Task list</h3>
         </div>
 
-        <div className="bg-white shadow-md rounded-lg p-4 mt-5">
+        <div className="bg-white shadow-md rounded-lg p-4 mt-5 mb-20">
           <div className="flex justify-between items-center mb-2">
             <p className="text-xs font-semibold text-gray-500 mb-2">Daily Task</p>
             <img src="/plus.png" alt="clock" className="" />
