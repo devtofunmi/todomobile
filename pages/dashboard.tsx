@@ -61,7 +61,7 @@ export default function Dashboard() {
                     ${task.done ? "bg-cyan-500" : "bg-white"}
                     transition-colors duration-200 cursor-pointer`}
                 />
-                <span className="text-gray-800">{task.text}</span>
+                <span className="text-gray-700">{task.text}</span>
               </li>
             ))}
           </ul>
